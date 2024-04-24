@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <title>Project: Sign-up Form</title>
 </head>
 
@@ -13,38 +16,46 @@
         <div>
             <img src="omid-armin-g17w8RVeKuQ-unsplash.jpg" alt="Green leaves photo">
         </div>
-        <div>
+        <div id="field-container">
             <form action="">
-                <p>
-                    <label for="first-name">First Name</label>
-                    <br>
-                    <input type="text" id="first-name" name="first-name">
-                </p>
-                <p>
-                    <label for="last-name">Last Name</label>
-                    <br>
-                    <input type="text" id="last-name" name="last-name">
-                </p>
-                <p>
-                    <label for="mail">Email</label>
-                    <br>
-                    <input type="email" id="mail" name="mail">
-                </p>
-                <p>
-                    <label for="phone">Phone number</label>
-                    <br>
-                    <input type="number" id="phone" name="phone">
-                </p>
-                <p>
-                    <label for="password">Password</label>
-                    <br>
-                    <input type="password" id="password" name="password">
-                </p>
-                <p>
-                    <label for="check-password">Confirm Password</label>
-                    <br>
-                    <input type="password" id="check-password" name="check-password">
-                </p>
+                <div id="form-container">
+
+
+                    <div class="form-col">
+                        <p>
+                            <label for="first-name">First Name</label>
+                            <br>
+                            <input type="text" id="first-name" name="first-name">
+                        </p>
+                        <p>
+                            <label for="mail">Email</label>
+                            <br>
+                            <input type="email" id="mail" name="mail">
+                        </p>
+                        <p>
+                            <label for="password">Password</label>
+                            <br>
+                            <input type="password" id="password" name="password">
+                        </p>
+                    </div>
+                    <div class="form-col">
+                        <p>
+                            <label for="last-name">Last Name</label>
+                            <br>
+                            <input type="text" id="last-name" name="last-name">
+                        </p>
+                        <p>
+                            <label for="phone">Phone number</label>
+                            <br>
+                            <input type="number" id="phone" name="phone">
+                        </p>
+                        <p>
+                            <label for="check-password">Confirm Password</label>
+                            <br>
+                            <input type="password" id="check-password" name="check-password">
+                        </p>
+                    </div>
+                </div>
                 <button>Create Account</button>
 
 
