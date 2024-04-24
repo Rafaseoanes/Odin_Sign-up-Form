@@ -6,29 +6,38 @@ body {
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
+    margin: 1rem 8rem;
 
 
 }
 
 img {
-    max-width: 50vw;
+    max-width: 50rem;
     max-height: 95vh;
-    margin: 1rem;
+
 }
-h3{
+
+h2 {
+    font-weight: 100;
+}
+
+h3 {
     max-width: 30rem;
     margin-left: 1rem;
     font-weight: 300;
 }
-h4{
+
+h4 {
     font-weight: 300;
     margin-left: 1rem;
 }
-h4 span{
+
+h4 span {
     color: #485c3d;
     font-weight: 400;
     font-size: smaller;
 }
+
 button {
     border: none;
     background-color: #485c3d;
@@ -59,20 +68,55 @@ input:invalid {
     border: solid red 1px
 }
 
+#img-container {
+    position: relative;
+
+}
+
+#logo {
+    height: 9rem;
+}
+
+#logo-container {
+    position: absolute;
+    background-color: #00000064;
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    top: 10rem;
+    font-size: 5rem;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px)
+
+}
+#photoCopyRight{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    color: white;
+    font-size: x-small;
+}
+#photoCopyRight a{
+    color: white;
+}
+
 #pw-error {
     color: tomato;
     font-size: small;
     position: absolute;
     bottom: 0px;
-    /* display: none; */
+
 }
 
 #field-container {
     width: 100%;
+    padding: 1rem;
 }
 
 #main-container {
-    padding: 0rem 8rem;
     display: flex;
     align-items: center;
 
