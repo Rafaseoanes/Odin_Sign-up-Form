@@ -1,0 +1,13 @@
+body{
+    background-color: #f8f9fa;
+}
+img{
+    max-width: 50vw;
+    max-height: 95vh;
+    margin: 1rem;
+}
+#main-container{
+    border: solid red 2px;
+    padding: 2rem 8rem;
+    display: flex;
+}
